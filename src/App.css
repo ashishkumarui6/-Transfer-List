@@ -1,0 +1,131 @@
+.main{
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.headind{
+  padding-bottom: 20px;
+
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item{
+  height: 30px;
+  background: lightblue;
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.cheacked{
+  background-color: black !important;
+  color: white;
+}
+
+.box{
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.actions{
+  display: flex;
+  flex-direction: column;
+}
+
+.actions-mobile{
+  display: none;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: aliceblue;
+}
+
+
+@media screen and (min-width:0px) and (max-width:480px){
+
+  .main{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .item{
+    height: 40px;
+    width: 200px;
+    background: lightblue;
+    margin: 8px 0;
+    padding: 4px;
+    font-size: 18px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  
+  .cheacked{
+    background-color: black !important;
+    color: white;
+  }
+  
+  .box{
+    width: 250px;
+    height: 230px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  
+  .actions{
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  
+  .actions-mobile{
+    display: block;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  
+  button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+  }
+
+}
